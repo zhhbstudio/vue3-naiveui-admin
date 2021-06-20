@@ -1,0 +1,34 @@
+{
+  "name": "vue3-naiveui-admin",
+  "version": "0.1.0",
+  "author": "zhhbstudio <zhhbstudio@gmail.com,zhhb@zhhb.studio>",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.9",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vicons/ionicons5": "^0.10.0",
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "naive-ui": "^2.12.2",
+    "vfonts": "^0.1.0",
+    "vite": "^2.3.8"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhhbstudio/vue3-naiveui-admin.git"
+  }
+
+}
