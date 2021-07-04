@@ -21,14 +21,13 @@ const routes = [
   {
     path: '/examples',
     component: Layout,
-    name: 'examples',
     label: '示例',
     icon: AppsIcon,
     children: [
       {
-        path: 'form', component: () => import('./views/home/home.vue'),
-        name: 'form',
-        label: '表单'
+        path: 'table', component: () => import('./views/table/table.vue'),
+        name: 'table',
+        label: '表格'
       },
       {
         path: 'list', component: () => import('./views/home/home.vue'),
