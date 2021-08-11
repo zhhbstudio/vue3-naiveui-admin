@@ -14,13 +14,13 @@ export function creatMenuOption(routes) {
     let newRoute
     if (route.children && route.children.length === 1) {
       const { name, label, icon } = route.children[0]
-      newRoute = { name, label }
+      newRoute = { key: name, name, label }
       if (icon) {
         newRoute.icon = renderIcon(icon)
       }
     } else {
       const { name, label, icon } = route
-      newRoute = { name, label }
+      newRoute = { key:name, name, label }
       if (icon) {
         newRoute.icon = renderIcon(icon)
       }

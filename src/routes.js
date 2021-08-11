@@ -20,6 +20,7 @@ const routes = [
   },
   {
     path: '/examples',
+    name: 'examples',
     component: Layout,
     label: '示例',
     icon: AppsIcon,
@@ -30,8 +31,8 @@ const routes = [
         label: '表格'
       },
       {
-        path: 'list', component: () => import('./views/home/home.vue'),
-        name: 'list',
+        path: 'form', component: () => import('./views/form/form.vue'),
+        name: 'form',
         label: '表单'
       },
       {
