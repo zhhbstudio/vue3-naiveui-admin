@@ -1,16 +1,10 @@
 <template>
-  <n-radio-group v-model:value="size" name="left-size" style="margin-bottom: 12px;">
-    <n-radio-button value="small">小</n-radio-button>
-    <n-radio-button value="medium">中</n-radio-button>
-    <n-radio-button value="large">大</n-radio-button>
-  </n-radio-group>
   <n-form
     :model="model"
     :rules="rules"
     ref="formRef"
     label-placement="left"
     :label-width="160"
-    :size="size"
     :style="{
       maxWidth: '640px'
     }"
@@ -109,11 +103,10 @@
 <script setup>
 
 import { defineComponent, ref } from 'vue'
-import { useMessage, NRadioGroup, NRadioButton, NForm, NFormItem, NInput, NSelect, NDatePicker,NTimePicker, NSwitch, NSpace,NRadio, NCheckboxGroup, NCheckbox, NInputNumber, NSlider, NTransfer, NGrid, NFormItemGi, NButton } from 'naive-ui'
+import { useMessage, NRadioGroup, NRadioButton, NForm, NFormItem, NInput, NSelect, NDatePicker, NTimePicker, NSwitch, NSpace, NRadio, NCheckboxGroup, NCheckbox, NInputNumber, NSlider, NTransfer, NGrid, NFormItemGi, NButton } from 'naive-ui'
 
 const formRef = ref(null)
 const message = useMessage()
-const size = ref('medium')
 const model = ref({
   inputValue: null,
   textareaValue: null,
