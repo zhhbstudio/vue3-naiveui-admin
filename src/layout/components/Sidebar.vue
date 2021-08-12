@@ -15,7 +15,7 @@ let activeMenu = ref('home')
 const menuOptions = creatMenuOption(routes)
 
 function renderMenuLabel(option) {
-    if (option.name) {
+    if (!(option.children && option.children.length != 1)) {
         return h(RouterLink, { to: { name: option.name } }, { default: () => option.label })
     } else {
         return option.label
