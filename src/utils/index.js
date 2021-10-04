@@ -20,7 +20,7 @@ export function creatMenuOption(routes) {
       }
     } else {
       const { name, label, icon } = route
-      newRoute = { key:name, name, label }
+      newRoute = { key: name, name, label }
       if (icon) {
         newRoute.icon = renderIcon(icon)
       }

@@ -3,7 +3,6 @@
 </template>
 <script setup>
 import { h, ref } from 'vue'
-import { NMenu, NIcon } from 'naive-ui'
 import { RouterLink } from 'vue-router'
 
 import { creatMenuOption } from "../../utils/index.js"

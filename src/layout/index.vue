@@ -15,7 +15,6 @@
   </n-layout>
 </template>
 <script setup>
-import { NLayout, NLayoutHeader, NLayoutSider, NLayoutFooter } from 'naive-ui'
 import VnaSidebar from './components/Sidebar.vue'
 
 </script>
