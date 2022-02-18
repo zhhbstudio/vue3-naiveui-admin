@@ -1,18 +1,13 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
-    es2021: true
+    node: true
   },
   extends: [
+    // add more generic rulesets here, such as:
     'plugin:vue/vue3-recommended',
-    'standard'
-  ],
-  parserOptions: {
-    ecmaVersion: 13,
-    sourceType: 'module'
-  },
-  plugins: [
-    'vue'
+    'eslint:recommended'
   ],
   rules: {
   }
