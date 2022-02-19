@@ -40,6 +40,11 @@ const routes = [
         name: 'other',
         label: '其他'
       },
+      {
+        path: 'pinia', component: () => import('./views/pinia/pinia.vue'),
+        name: 'pinia',
+        label: 'pinia'
+      }
     ]
   }
 ]
